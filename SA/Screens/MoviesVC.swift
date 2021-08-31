@@ -46,6 +46,12 @@ class MoviesVC: UIViewController {
     func configureViewController() {
     view.backgroundColor = .systemBackground
     navigationController?.navigationBar.prefersLargeTitles = true
+        
+        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(dismissVC))
+        navigationItem.rightBarButtonItem = addButton
+    }
+    @objc func dismissVC() {
+       
     }
     
     // MARK:  Confire Collection View and FLOW Layout
@@ -148,7 +154,7 @@ extension MoviesVC: UISearchResultsUpdating , UISearchBarDelegate {
         isSearching = true
         print(filtertext)
         fillteredArray = moviesArray.filter{
-            $0.title.lowercased().contains(filtertext.lowercased())
+            $0.title!.lowercased().contains(filtertext.lowercased())
         }
         updateData(on: fillteredArray)
         print(fillteredArray)

@@ -36,6 +36,7 @@ class MovieDetailsVC: UIViewController {
           dismiss(animated: true, completion: nil)
       }
     
+    
     func configureCollectionView() {
         collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: UIHelper.createCollumnFlowLayout(in: view))
         view.addSubview(collectionView)
@@ -72,8 +73,6 @@ class MovieDetailsVC: UIViewController {
             
         }
     }
-  
-
 }
 
 extension MovieDetailsVC: UICollectionViewDelegate {

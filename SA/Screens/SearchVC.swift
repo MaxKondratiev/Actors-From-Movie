@@ -11,7 +11,7 @@ class SearchVC: UIViewController {
 
     let logoImageView = UIImageView()
     let movieTF = TextFields()
-    let actionGoButton = Buttons(backgroundColor: .systemOrange, title: "Go along")
+    let actionGoButton = Buttons(backgroundColor: .systemOrange, title: "Go along",borderWidth: 0)
     
     var isEntered: Bool {
         return !movieTF.text!.isEmpty

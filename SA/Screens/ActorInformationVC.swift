@@ -7,13 +7,17 @@
 
 import UIKit
 
+//protocol ActorInformationVCDelegate: class {
+//    func didTap(for actor:ActorDetails)
+//}
+
 class ActorInformationVC: UIViewController {
 
     
     var id: Int!
     let headerView = UIView()
-//    let id: Int?
-   //let actorInfo : ActorDetails!
+    
+    var completion: ((Int)->Void)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,15 +26,23 @@ class ActorInformationVC: UIViewController {
         layoutUI()
         //fetchActorInfo(for: id!)
         fetchData(for: id)
+        
     }
     
     func configureViewController() {
         view.backgroundColor = .systemBackground
-        let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissVC))
+        let doneButton = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(dismissVC))
+        navigationItem.rightBarButtonItem?.title = "credits"
         navigationItem.rightBarButtonItem = doneButton
+        navigationController?.navigationBar.prefersLargeTitles = true
+       
+        
+        
     }
     @objc func dismissVC(){
-          dismiss(animated: true, completion: nil)
+          let vc = ActorAllMoviesViewController()
+        vc.id = self.id
+        present(vc, animated: true, completion: nil)
       }
     
     func layoutUI() {
@@ -58,11 +70,18 @@ class ActorInformationVC: UIViewController {
         NetworkManager.shared.getActorInfo(for: id) { (result) in
             switch result {
             
-            case .success(let data):
+            case .success(let actor):
                 DispatchQueue.main.async {
-                    self.addVC(childVC: childActorInfoVC(actor: data), to: self.headerView )
+                    //DELEGATE to childActorInfoVC
+                    let  delVC = childActorInfoVC(actor: actor)
+                    //delVC.delegate = self
+                    self.addVC(childVC: delVC, to: self.headerView )
+                    //
+                    //self.completion?(actor.id)
+                    self.title = actor.name
+                    
+                    print("\(actor.id ) ++ \(actor.name)")
                 }
-               
             case .failure(let error):
                 print(error.localizedDescription)
             }
@@ -70,3 +89,21 @@ class ActorInformationVC: UIViewController {
     }
 
 }
+
+//extension ActorInformationVC : ActorInformationVCDelegate {
+//
+//    func didTap(for actor: ActorDetails) {
+//
+//        let vc = ActorAllMoviesViewController()
+//        present(vc, animated: true, completion: nil)
+//        vc.id = actor.id
+//        print("TUT \(actor.id)")
+//    }
+    
+    
+    
+    
+    
+
+
+

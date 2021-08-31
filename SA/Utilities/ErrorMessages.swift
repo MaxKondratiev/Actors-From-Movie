@@ -12,4 +12,5 @@ enum ErrorMessages : String, Error {
     case unabletoComplete = "Unable to complete your request"
     case invalidResponse = "Invalid response from the server"
     case invalidData = "Received data is invalid , try again"
+    case alreadyInFav = " This actor is already in favorites!"
 }

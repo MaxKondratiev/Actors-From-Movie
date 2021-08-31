@@ -17,11 +17,13 @@ class Buttons: UIButton {
     }
     
     //Another INIT for Variety
-    init(backgroundColor:UIColor,title:String) {
+    init(backgroundColor:UIColor,title:String, borderWidth: CGFloat ) {
         super.init(frame: .zero)
         self.backgroundColor = backgroundColor
         self.setTitle(title, for: .normal)
         configure()
+       
+        self.layer.borderWidth = borderWidth
     }
     //
     private func configure() {

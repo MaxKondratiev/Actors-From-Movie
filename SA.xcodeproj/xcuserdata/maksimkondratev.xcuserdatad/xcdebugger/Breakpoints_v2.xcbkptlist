@@ -77,8 +77,8 @@
             filePath = "SA/Custom Views/Cells/MovieCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "set(movie:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -93,9 +93,9 @@
             filePath = "SA/Screens/MoviesVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
-            landmarkName = "getMovies(movie:page:)"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "configureSearchController()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -109,10 +109,10 @@
             filePath = "SA/Screens/MoviesVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "getMovies(movie:page:)"
-            landmarkType = "7">
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "MoviesVC"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "83F1E8D7-F146-4D09-B2E9-379DAAA84BA3 - bff3c480dd3c0810"
@@ -157,8 +157,8 @@
             filePath = "SA/Screens/MoviesVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "getMovies(movie:page:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -173,8 +173,8 @@
             filePath = "SA/Screens/MoviesVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "getMovies(movie:page:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -189,8 +189,8 @@
             filePath = "SA/Screens/MoviesVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "getMovies(movie:page:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -205,10 +205,10 @@
             filePath = "SA/Screens/MoviesVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
-            landmarkName = "collectionView(_:didSelectItemAt:)"
-            landmarkType = "7">
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "MoviesVC"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -221,8 +221,8 @@
             filePath = "SA/Screens/MoviesVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "153"
-            endingLineNumber = "153"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
             landmarkName = "updateSearchResults(for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -240,6 +240,294 @@
             startingLineNumber = "55"
             endingLineNumber = "55"
             landmarkName = "getMoviesDetails(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDC5AEE5-8BA2-479A-9FB7-170EC9077FF3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SA/Custom Views/View Controllers/childActorInfoVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "actionButtonDidTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF4339A9-4C6E-4388-93B2-A5092D35BB77"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SA/Screens/ActorAllMoviesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "fetchAllMovies(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0E89DC4-8C26-48D2-8241-8C7A81EBC4C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SA/Screens/ActorAllMoviesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "fetchAllMovies(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B0E89DC4-8C26-48D2-8241-8C7A81EBC4C0 - 955beb7ec34149ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;SA.Credits&gt;, SA.ErrorMessages&gt;) -&gt; () in SA.ActorAllMoviesViewController.fetchAllMovies(for: Swift.Int) -&gt; ()"
+                  moduleName = "SA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimkondratev/Documents/PetProjects/SeeActors/SA/Screens/ActorAllMoviesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "B0E89DC4-8C26-48D2-8241-8C7A81EBC4C0 - 955beb7ec34149ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;SA.Credits&gt;, SA.ErrorMessages&gt;) -&gt; () in SA.ActorAllMoviesViewController.fetchAllMovies(for: Swift.Int) -&gt; ()"
+                  moduleName = "SA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimkondratev/Documents/PetProjects/SeeActors/SA/Screens/ActorAllMoviesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E72C63A8-1518-431D-BBFA-6F20F2218832"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SA/Managers/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "getAllMoviesOfActor(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3230EEB-2E21-40FE-8600-9D3BCA87C912"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SA/Managers/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "getAllMoviesOfActor(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8039BF75-41F2-4F0B-97FC-528C58B1CC02"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SA/Managers/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "getAllMoviesOfActor(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3BB9059-65F0-4979-BC02-9D0D18C515CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SA/Managers/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "getAllMoviesOfActor(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C3BB9059-65F0-4979-BC02-9D0D18C515CD - ed1e72c22ecec50a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SA.NetworkManager.getAllMoviesOfActor(for: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;SA.Credits&gt;, SA.ErrorMessages&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimkondratev/Documents/PetProjects/SeeActors/SA/Managers/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "952">
+               </Location>
+               <Location
+                  uuid = "C3BB9059-65F0-4979-BC02-9D0D18C515CD - 5d3f06ac3a210d17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SA.NetworkManager.getAllMoviesOfActor(for: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;SA.Credits&gt;, SA.ErrorMessages&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimkondratev/Documents/PetProjects/SeeActors/SA/Managers/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EA6B2D4-3CF9-4F80-ABD3-45052A8D5590"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SA/Managers/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "getAllMoviesOfActor(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EED1AF8-BD7F-444B-9ACC-6572C79734C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SA/Managers/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "getAllMoviesOfActor(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88066A8C-2CAC-4332-A7FB-9A42E5EE347C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SA/Managers/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "getAllMoviesOfActor(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "401BE056-07BF-4781-8135-E82BCAD0A75C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SA/Managers/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "getAllMoviesOfActor(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "401BE056-07BF-4781-8135-E82BCAD0A75C - ed1e72c22ecec529"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SA.NetworkManager.getAllMoviesOfActor(for: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;SA.Credits&gt;, SA.ErrorMessages&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimkondratev/Documents/PetProjects/SeeActors/SA/Managers/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "952">
+               </Location>
+               <Location
+                  uuid = "401BE056-07BF-4781-8135-E82BCAD0A75C - 5d3f06ac3a210d76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SA.NetworkManager.getAllMoviesOfActor(for: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;SA.Credits&gt;, SA.ErrorMessages&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimkondratev/Documents/PetProjects/SeeActors/SA/Managers/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC4049BD-4030-4831-8791-2FE3497A3907"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SA/Managers/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "getAllMoviesOfActor(for:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

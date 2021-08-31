@@ -25,7 +25,10 @@ class MovieCell : UICollectionViewCell {
     
     func set(movie: Moviesss){
         movieTitleLabel.text = movie.title
-        moviePoster.downloadImage(from: "https://image.tmdb.org/t/p/w500\(movie.image)" )
+        guard let path =  movie.image else {
+            return
+        }
+        moviePoster.downloadImage(from: "https://image.tmdb.org/t/p/w500\(path)" )
         
     }
     let padding: CGFloat = 8

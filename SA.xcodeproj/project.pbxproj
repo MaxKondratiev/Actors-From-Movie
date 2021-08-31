@@ -33,6 +33,10 @@
 		12A07C7A26D7A2E400A60A49 /* SecondaryTitleLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A07C7926D7A2E400A60A49 /* SecondaryTitleLabels.swift */; };
 		12A07C7E26D7B6A800A60A49 /* ActorInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A07C7D26D7B6A800A60A49 /* ActorInformationVC.swift */; };
 		12A07C8226D7C7D900A60A49 /* OurTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A07C8126D7C7D900A60A49 /* OurTextField.swift */; };
+		12A07C8626D7E63900A60A49 /* ActorAllMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A07C8526D7E63900A60A49 /* ActorAllMoviesViewController.swift */; };
+		12A07C8926D7EBC800A60A49 /* AllMoviesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A07C8826D7EBC800A60A49 /* AllMoviesCell.swift */; };
+		12A07C8C26D8C80300A60A49 /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A07C8B26D8C80300A60A49 /* PersistanceManager.swift */; };
+		12A07C8F26D91E4C00A60A49 /* FavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A07C8E26D91E4C00A60A49 /* FavoritesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,10 @@
 		12A07C7926D7A2E400A60A49 /* SecondaryTitleLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryTitleLabels.swift; sourceTree = "<group>"; };
 		12A07C7D26D7B6A800A60A49 /* ActorInformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorInformationVC.swift; sourceTree = "<group>"; };
 		12A07C8126D7C7D900A60A49 /* OurTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurTextField.swift; sourceTree = "<group>"; };
+		12A07C8526D7E63900A60A49 /* ActorAllMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorAllMoviesViewController.swift; sourceTree = "<group>"; };
+		12A07C8826D7EBC800A60A49 /* AllMoviesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMoviesCell.swift; sourceTree = "<group>"; };
+		12A07C8B26D8C80300A60A49 /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
+		12A07C8E26D91E4C00A60A49 /* FavoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,10 +156,11 @@
 			isa = PBXGroup;
 			children = (
 				123383A426D3D70300AE625A /* SearchVC.swift */,
-				123383A726D3D72700AE625A /* FavoritesVC.swift */,
 				123383B126D3F80A00AE625A /* MoviesVC.swift */,
 				12A07C6C26D6D7BE00A60A49 /* MovieDetailsVC.swift */,
 				12A07C7D26D7B6A800A60A49 /* ActorInformationVC.swift */,
+				12A07C8526D7E63900A60A49 /* ActorAllMoviesViewController.swift */,
+				123383A726D3D72700AE625A /* FavoritesVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -168,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				123383D026D41B2900AE625A /* NetworkManager.swift */,
+				12A07C8B26D8C80300A60A49 /* PersistanceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -186,6 +196,8 @@
 			children = (
 				123383D826D54A5700AE625A /* MovieCell.swift */,
 				12A07C6F26D785E300A60A49 /* ActorCell.swift */,
+				12A07C8826D7EBC800A60A49 /* AllMoviesCell.swift */,
+				12A07C8E26D91E4C00A60A49 /* FavoritesCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -274,6 +286,10 @@
 				12A07C7626D7A20300A60A49 /* childActorInfoVC.swift in Sources */,
 				12A07C7026D785E300A60A49 /* ActorCell.swift in Sources */,
 				12A07C7A26D7A2E400A60A49 /* SecondaryTitleLabels.swift in Sources */,
+				12A07C8F26D91E4C00A60A49 /* FavoritesCell.swift in Sources */,
+				12A07C8C26D8C80300A60A49 /* PersistanceManager.swift in Sources */,
+				12A07C8926D7EBC800A60A49 /* AllMoviesCell.swift in Sources */,
+				12A07C8626D7E63900A60A49 /* ActorAllMoviesViewController.swift in Sources */,
 				123383B526D3FCA400AE625A /* TitleLabels.swift in Sources */,
 				123383CB26D40F2900AE625A /* MoviesResponse.swift in Sources */,
 				12A07C7E26D7B6A800A60A49 /* ActorInformationVC.swift in Sources */,
